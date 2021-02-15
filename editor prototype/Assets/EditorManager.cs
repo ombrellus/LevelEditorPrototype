@@ -96,7 +96,7 @@ public class EditorManager : MonoBehaviour
         BinaryFormatter bin = new BinaryFormatter();
 
         // needed for custom level names
-        string path = Application.persistentDataPath + "/" + FileName + ".fsl";
+        string path = Application.persistentDataPath + "/" + FileName + ".ple";
 
         FileStream stream = new FileStream(path, FileMode.Create);
 
